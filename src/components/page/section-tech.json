@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_section_teches",
+  "info": {
+    "displayName": "SectionTech",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "techicons": {
+      "displayName": "IconsContainer",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.icons-container",
+      "required": true,
+      "max": 10,
+      "min": 5
+    }
+  }
+}

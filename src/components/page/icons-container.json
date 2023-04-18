@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_icons_containers",
+  "info": {
+    "displayName": "IconsContainer"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
